@@ -49,7 +49,7 @@ const Socials = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/mayank1305j"
+          href="https://github.com/mayank1305j/IMDB-clone"
         >
           <i className="ri-github-fill"></i>
         </a>
