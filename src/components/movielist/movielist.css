@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.movielist {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  height: 100%;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  align-items: center;
+  justify-content: center;
+}
