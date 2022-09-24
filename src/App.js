@@ -18,6 +18,18 @@ function App() {
           <Route path="/movies/:type" element={<MovieList />} />
           <Route path="/movie/:id" element={<Movie />} />
           <Route path="/search" element={<Search />} />
+          <Route
+            path="*"
+            element={
+              <div>
+                <br></br>
+                <br></br>
+                <h1>
+                  There is some error kindly go back to <a href="/">Home</a>
+                </h1>
+              </div>
+            }
+          />
         </Routes>
       </Router>
     </div>
